@@ -1,0 +1,42 @@
+body {
+  background: #14213d;
+  color: #fca311;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  font-size: 0.9rem;
+  background: #e5e5e5;
+  padding: 1rem;
+  color: #14213d;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
